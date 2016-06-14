@@ -1,0 +1,3 @@
+SELECT `id`, `firstname`, `lastname`, `nationality` FROM `astronauts` ORDER BY lastname ASC;
+SELECT `id`, `firstname`, `lastname`, `nationality` FROM `astronauts`  WHERE nationality='Russia' or nationality='Netherlands' ORDER BY lastname  ASC;
+SELECT `firstname`, `lastname`, `nationality` FROM `astronauts` ORDER BY nationality ASC, lastname ASC;

@@ -1,0 +1,3 @@
+SELECT `firstname`, `lastname` FROM `astronauts` WHERE nationality='Russia';
+SELECT * FROM `astronauts` WHERE id>='5';
+SELECT * FROM `astronauts` WHERE nationality!='United States';  
