@@ -1,0 +1,3 @@
+SELECT COUNT(*) FROM astronauts 
+SELECT COUNT(DISTINCT nationality) FROM astronauts
+SELECT * FROM astronauts ORDER BY id DESC LIMIT 0 , 1 
