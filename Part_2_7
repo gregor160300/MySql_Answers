@@ -1,3 +1,6 @@
 SELECT `firstname`, `lastname` FROM `astronauts` WHERE firstname LIKE 'm%';
 SELECT `firstname`, `lastname`, `nationality` FROM `astronauts` WHERE nationality LIKE '%s';
 SELECT `firstname`, `lastname`, `nationality` FROM `astronauts` WHERE nationality LIKE '%us%';
+SELECT `firstname`, `lastname` FROM `astronauts` WHERE `firstname` NOT LIKE '%e%' 
+SELECT * FROM `astronauts` WHERE `nationality` LIKE BINARY '%S%' 
+BINARY zorgt ervoor dat er dat er binair word vergeleken, dus heb je ook gevoeligheid voor hoofdletters en kleine letters
