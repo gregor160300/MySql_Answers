@@ -3,4 +3,4 @@ UPDATE astronauts SET nationality = 'BEL' WHERE nationality = 'Belgium'
 UPDATE astronauts SET nationality = 'NLD' WHERE nationality = 'Netherlands'
 UPDATE astronauts SET nationality = 'ITA' WHERE nationality = 'Italy'
 UPDATE astronauts SET nationality = 'RUS' WHERE nationality = 'Russia'
-
+Bij het ontwerp van de database had ik hier geen rekening mee gehouden, je zou dit wel een kunnen aanpassen naar 1 query, maar het is nog steeds onhandig
