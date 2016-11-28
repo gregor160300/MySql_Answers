@@ -1,0 +1,2 @@
+UPDATE astronauts SET nationality = 'USA' WHERE nationality = 'United States'
+UPDATE astronauts SET nationality = 'BEL' WHERE nationality = 'Belgium'
