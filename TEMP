@@ -2,3 +2,7 @@ INSERT INTO nasa.nationality (id,iso,un,nationality) VALUES (56, 'BE', 'BEL', 'B
 INSERT INTO nasa.nationality (id,iso,un,nationality) VALUES (528, 'NL', 'NLD', 'Netherlands');
 INSERT INTO nasa.nationality (id,iso,un,nationality) VALUES (643, 'RU', 'RUS', 'Russian Federation');
 INSERT INTO nasa.nationality (id,iso,un,nationality) VALUES (380, 'IT', 'ITA', 'Italy');
+UPDATE astronauts SET nationality = 643 WHERE id>=11;
+UPDATE astronauts SET nationality = 380 WHERE id=10;
+UPDATE astronauts SET nationality = 528 WHERE id=9;
+UPDATE astronauts SET nationality = 56 WHERE id=8;
