@@ -1,3 +1,4 @@
+// Deel 3
 INSERT INTO nasa.nationality (id,iso,un,nationality) VALUES (56, 'BE', 'BEL', 'Belgium');
 INSERT INTO nasa.nationality (id,iso,un,nationality) VALUES (528, 'NL', 'NLD', 'Netherlands');
 INSERT INTO nasa.nationality (id,iso,un,nationality) VALUES (643, 'RU', 'RUS', 'Russian Federation');
@@ -17,4 +18,5 @@ FROM astronauts
 INNER JOIN nationality
 ON astronauts.nationality=nationality.id
 
-Gentse Tripel
+// Deel 4
+Gentse Tripel, Uilenspiegel, Jupiler
