@@ -1,0 +1,4 @@
+INSERT INTO nasa.nationality (id,iso,un,nationality) VALUES (56, 'BE', 'BEL', 'Belgium');
+INSERT INTO nasa.nationality (id,iso,un,nationality) VALUES (528, 'NL', 'NLD', 'Netherlands');
+INSERT INTO nasa.nationality (id,iso,un,nationality) VALUES (643, 'RU', 'RUS', 'Russian Federation');
+INSERT INTO nasa.nationality (id,iso,un,nationality) VALUES (380, 'IT', 'ITA', 'Italy');
