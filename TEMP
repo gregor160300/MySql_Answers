@@ -6,3 +6,9 @@ UPDATE astronauts SET nationality = 643 WHERE id>=11;
 UPDATE astronauts SET nationality = 380 WHERE id=10;
 UPDATE astronauts SET nationality = 528 WHERE id=9;
 UPDATE astronauts SET nationality = 56 WHERE id=8;
+
+
+SELECT astronauts.firstname, astronauts.lastname, nationality.iso
+FROM astronauts
+INNER JOIN nationality
+ON astronauts.nationality=nationality.id;
