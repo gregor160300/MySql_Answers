@@ -16,3 +16,5 @@ SELECT astronauts.firstname, astronauts.lastname, nationality.nationality
 FROM astronauts
 INNER JOIN nationality
 ON astronauts.nationality=nationality.id
+
+Gentse Tripel
